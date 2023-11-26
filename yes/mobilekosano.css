@@ -1,0 +1,32 @@
+body{
+    background-color: red;
+}
+#first
+{
+display: block;
+padding: 15px 0px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+background-color: rgb(252, 170, 48);
+transition-duration: 0.25s;
+}
+.body-1::before
+{
+    content: "";
+    z-index: -1;
+    background: url('https://images.pexels.com/photos/19052634/pexels-photo-19052634/free-photo-of-rustic-table-with-bread-and-spinach.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+    height: 230vh;
+    width: 100vw;
+    position: absolute;
+    opacity: 0.90;
+
+}
+.social
+{
+    margin: 50px 10px;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}

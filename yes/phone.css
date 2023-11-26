@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+.body-2box
+{ 
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.body-2::before
+{
+    content:"";
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    
+
+}
+.body-2
+{
+    background: url('https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+   
+    margin-top: 140px;
+    padding: 60px 0px;
+    height: 250vh;
+    text-align: center;
+}
+.contact
+{
+   
+   margin-left: 60px;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.social
+{
+    margin: 50px 50px;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
